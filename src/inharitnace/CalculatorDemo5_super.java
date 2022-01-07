@@ -1,11 +1,26 @@
 package inharitnace;
 
-class SubstractoinableCalculator extends Calculator{
-	public SubstractoinableCalculator(int left, int right) {
-		super(left, right);
-		// 초기화는 여기서 부터 즉 super 다음부터 할 수 있다. 상위클래스가 먼저 인스턴스화 된다음에 해야 하기 때문.
+class SubstractionCalculator{
+	int left, right;
+	public SubstractionCalculator() {}
+	public SubstractionCalculator(int left, int right) {
+		this.left = left;
+		this.right = right;
+	}
+	public void sum() {
+		System.out.println(this.left + this.right);
 	}
 }
+
+class MultiplyableCalculator extends SubstractionCalculator{
+	int left, right;
+	public MultiplyableCalculator(int left, int right) {
+		this.left = left;
+		this.right = right;
+	}
+	
+}
+
 public class CalculatorDemo5_super {
 
 	public static void main(String[] args) {

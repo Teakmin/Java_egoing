@@ -6,7 +6,7 @@ class multiplicationableCalculator extends Calculator {
 	}
 }
 
-public class CalculatorDemo2 {
+public class CalculatorDemo2 { 
 
 	public static void main(String[] args) {
 		multiplicationableCalculator c1 = new multiplicationableCalculator(10, 20);
