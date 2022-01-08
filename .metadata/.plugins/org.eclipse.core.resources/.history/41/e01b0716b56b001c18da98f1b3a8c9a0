@@ -1,0 +1,9 @@
+package inharitnace;
+
+
+class DivisionableCalculator extends multiplicationableCalculator {
+	
+}
+public class CalculatorDemo3 {
+
+}

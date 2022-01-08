@@ -1,0 +1,14 @@
+package inharitnace;
+
+class multiplicationableCalculator extends Calculator {
+	public 
+}
+
+public class CalculatorDemo2 {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

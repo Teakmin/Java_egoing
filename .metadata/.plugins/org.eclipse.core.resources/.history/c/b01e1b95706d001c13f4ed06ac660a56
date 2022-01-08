@@ -1,0 +1,15 @@
+package inharitnace;
+
+class SubstractoinableCalculator extends Calculator{
+	public SubstractoinableCalculator(int left, int right) {
+		super(left, right);
+	}
+}
+public class CalculatorDemo5_super {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

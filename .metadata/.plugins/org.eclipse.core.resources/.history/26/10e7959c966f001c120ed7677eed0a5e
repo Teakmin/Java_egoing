@@ -1,0 +1,21 @@
+package inharitnace;
+
+class SubstractionableCalculator{
+	int left, right;
+	public SubstractionableCalculator(int left, int right) {
+		this.left = left;
+		this.right = right;
+	}
+	public void sum() {
+		System.out.println(this.left + this.right);
+	}
+
+}
+public class CalculatorDemo5_super {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
