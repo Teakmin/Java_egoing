@@ -1,0 +1,13 @@
+package inharitnace;
+
+class divisionableCalculator{
+	public void division() {
+		System.out.println(this.left / this.right);
+	}
+}
+
+public class CalculatorDemo3 {
+	public static void main(String[] args) {
+		divisionableCalculator c1 = new divisionableCalculator();
+	}
+}

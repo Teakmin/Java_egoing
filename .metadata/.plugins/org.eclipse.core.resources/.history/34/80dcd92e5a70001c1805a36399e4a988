@@ -1,0 +1,19 @@
+package overloading;
+
+class Calculator {
+	int left, right;
+	int third = 0;
+	
+	public void setOperands(int left, int right) {
+		this.left = left;
+		this.right = right;
+	}	
+}
+
+
+public class overloading_1 {
+	
+	public static void main(String args[]) {
+		
+	}
+}
